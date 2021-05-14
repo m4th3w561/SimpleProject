@@ -1,0 +1,56 @@
+* {
+    font-family: Helvetica;
+    text-align: center;
+}
+.banner {
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: khaki;
+    background-image: url("./Images/bg.jpeg");
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding-left: 1rem;
+}
+p {
+    text-align: left;
+}
+.brushes h2{
+    background-color: mediumspringgreen;
+}
+
+.frames h2 {
+    background-color: lightcoral;
+}
+
+.paint h2 {
+    background-color: skyblue;
+}
+
+.price {
+    color: blue;
+}
+
+.products {
+    display: flex;
+}
+
+.box {
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    margin: 0 5rem 10rem;
+    padding: 2rem;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    box-shadow: 0.8rem 0.3rem 5rem 0.1rem rgba(201, 201, 201, 0.8);
+
+}
